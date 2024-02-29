@@ -32,6 +32,7 @@ const peopleList = document.getElementById("people-list");
 
 // Função assíncrona para obter informações de pessoas e adicioná-las à lista
 async function getPeople() {
+	peopleList.innerHTML = [""]
 	// Iterando sobre os IDs das pessoas de 1 a 9
 	for (let i = 1; i < 10; i++) {
 		// Criando elementos HTML para cada pessoa
